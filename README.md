@@ -29,18 +29,26 @@ House-Price-Prediction/ │ ├── house_prices/ # Dataset folder │ ├─�
 1. Clone the repository:
    ```bash
    git clone https://github.com/Anna-Jaison/House-Price-Prediction.git
-2.Navigate to the project directory:
-
-
-cd House-Price-Prediction
-Install the required Python libraries:
-
-
-pip install -r requirements.txt
-Run the Python script to train the model:
-
-python src.py
+2. Navigate to the project directory:
+   ```bash
+   cd House-Price-Prediction
+3. Install the required Python libraries:
+    ```bash
+    pip install -r requirements.txt
+4. Run the Python script to train the model:
+   ```bash
+    python src.py
 
 ### Output
 The trained model is saved as house_price_model.pkl in the models/ folder.
 Evaluation metrics such as Mean Squared Error (MSE) and R² (R-squared) are displayed in the terminal after the script runs.
+
+### Dataset
+The dataset includes:
+
+-train.csv: Used for training the model.
+-test.csv: Used for testing and evaluation.
+-Source: Kaggle Dataset
+
+
+
