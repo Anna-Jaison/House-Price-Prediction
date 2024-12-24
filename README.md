@@ -15,8 +15,13 @@ The model uses the following features for predicting house prices:
 ---
 
 ## Project Directory Structure
-House-Price-Prediction/ │ ├── house_prices/ # Dataset folder │ ├── train.csv # Training dataset │ └── test.csv # Testing dataset ├── models/ # Folder for saved model │ └── house_price_model.pkl # Trained model file ├── src.py # Python script for training and evaluation ├── requirements.txt # Dependencies for the project └── README.md # Project documentation
-
+House-Price-Prediction/ │
+├── house_prices/ # Dataset folder │ 
+   ├── train.csv # Training dataset │
+   └── test.csv # Testing dataset
+├── models/ # Folder for saved model │ 
+   └── house_price_model.pkl # Trained model file
+├── src.py # Python script for training and evaluation 
 ---
 
 ## Installation Instructions
@@ -46,9 +51,9 @@ Evaluation metrics such as Mean Squared Error (MSE) and R² (R-squared) are disp
 ### Dataset
 The dataset includes:
 
--train.csv: Used for training the model.
--test.csv: Used for testing and evaluation.
--Source: Kaggle Dataset
+- train.csv: Used for training the model.
+- test.csv: Used for testing and evaluation.
+- Source: Kaggle Dataset
 
 
 
