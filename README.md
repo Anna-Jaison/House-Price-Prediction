@@ -15,13 +15,8 @@ The model uses the following features for predicting house prices:
 ---
 
 ## Project Directory Structure
-House-Price-Prediction/ │
-├── house_prices/ # Dataset folder │ 
-   ├── train.csv # Training dataset │
-   └── test.csv # Testing dataset
-├── models/ # Folder for saved model │ 
-   └── house_price_model.pkl # Trained model file
-├── src.py # Python script for training and evaluation 
+House-Price-Prediction/ │ ├── house_prices/ # Dataset folder │ ├── train.csv # Training dataset │ └── test.csv # Testing dataset ├── models/ # Folder for saved model │ └── house_price_model.pkl # Trained model file ├── src.py # Python script for training and evaluation ├── requirements.txt # Dependencies for the project └── README.md # Project documentation
+
 ---
 
 ## Installation Instructions
